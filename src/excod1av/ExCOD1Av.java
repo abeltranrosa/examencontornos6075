@@ -15,6 +15,8 @@ public class ExCOD1Av {
         //no lo tengo claro y decido si modifico un programa para que me visualice el area de un rectangulo
         
         //con el programa creado del rectangulo como experimento decido que no es buena idea y me planteo volver al cuadrado
+        
+        //hago el ultimo commit antes de mezclar 
     }
     
 }
