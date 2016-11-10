@@ -12,6 +12,7 @@ public class ExCOD1Av {
         System.out.println("teclea lado :");
         lado = Double.parseDouble(JOptionPane.showInputDialog("lado"));
         System.out.println("area = " +lado*lado);
+        //no lo tengo claro y decido si modifico un programa para que me visualice el area de un rectangulo
     }
     
 }
