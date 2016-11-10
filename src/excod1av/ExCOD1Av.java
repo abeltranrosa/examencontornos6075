@@ -8,11 +8,18 @@ public class ExCOD1Av {
 
     
     public static void main(String[] args) {
-        double lado;
-        System.out.println("teclea lado :");
-        lado = Double.parseDouble(JOptionPane.showInputDialog("lado"));
-        System.out.println("area = " +lado*lado);
-        //no lo tengo claro y decido si modifico un programa para que me visualice el area de un rectangulo
+        
+        //creo el metodo calcular area de un rectangulo
+        float base;
+        float altura;
+        float area;
+        
+        base=Float.parseFloat(JOptionPane.showInputDialog("base"));
+        altura=Float.parseFloat(JOptionPane.showInputDialog("altura"));
+        area = base*altura;
+        
+        JOptionPane.showMessageDialog(null, "el area del rectangulo es =" + area); 
+        
     }
     
 }
